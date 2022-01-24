@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class= "header__logo" src="img/logo.png" alt="Logo">
+        </a>
+    </header>
+
+    <nav class="navigation">
+        <a class="navigation__link navigation__link--active" href="index.html">Store</a>
+        <a class="navigation__link" href="us.html">About Us</a>
+    </nav>
+
+    <main class="container">
+        <h1>GitHub</h1>
+
+        <div class="tshirt">
+            <img class="tshirt__img"src="img/8.jpg" alt="githubtshirt">
+
+            <div class="tshirt_content">
+                <p class="tshirt_content_text">GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. 
+                It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features. 
+                It provides access control and several collaboration features such as bug tracking, 
+                feature requests, task management, continuous integration and wikis for every project.</p>
+
+                <form class="form">
+                    <select class="form__fields">
+                        <option disabled selected>-- Select T-Shirt Size --</option>
+                        <option>XS</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                    <input class="form__fields" type="number" placeholder="Quantity" min="1">
+                    <button class="form__submit" type="submit">Add to cart</button>
+                </form>
+            </div>
+        </div> <!--Tshirt block end-->
+    </main> 
+
+    <footer class="footer">
+        <p class="footer__text">Front End Store - All rights reserved 2022.</p>
+    </footer>
+
+</body>
+</html>

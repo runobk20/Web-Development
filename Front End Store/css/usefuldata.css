@@ -1,0 +1,19 @@
+.navigation {
+    background-color: var(--primarioObs);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /*New way*/
+}
+
+.navigation__link {
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 3rem;
+    margin-right: 2rem; /*OLd way*/
+}
+
+/*Using last-of-type to select the last element of a type, in this case, the last link*/
+.navigation__link:last-of-type {
+    margin-right: 0;
+}
